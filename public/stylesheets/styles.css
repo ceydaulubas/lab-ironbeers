@@ -35,15 +35,23 @@ header {
     color: white;
 }
 
-.mainImg{
-    width: 500px;
-    display: flex;
-
-}
-
 footer {
     background-color:#0a2c42;
     height: 60px;
     margin-top: 60px;
     color:white;
+}
+
+.index-style{
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+}
+
+.beerimg{
+   width: 250px;
+  }
+
+.card-img{
+    width: 50px;
 }

@@ -1,7 +1,8 @@
-<ul>
-    {{#each beersFromApi}}
-     {{>beerpartial this}}
-    
-    {{/each}}
-</ul>
-
+<div class="container">
+    <h1>Beers</h1>
+    <div class="row">
+        {{#each beersFromApi}}
+        {{>beerpartial this}}
+        {{/each}}
+    </div>
+</div>
